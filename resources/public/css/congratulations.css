@@ -1,0 +1,25 @@
+/* CONGRATULATIONS */
+html, body {
+    background: -webkit-linear-gradient(#a3da58 50%, #486d5b 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex1 {
+    text-align: center;
+    flex: 1;
+}
+
+.eva-purple {
+    font-size: 5em;
+    text-shadow: 2px 2px #592661;
+    color: #a877c7;
+    padding-bottom: .5em;
+}

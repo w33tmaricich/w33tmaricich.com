@@ -1,0 +1,2085 @@
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  resources/public/javascripts/cljs-dev/goog/deps.js
+notifying browser that file changed:  /helloworld/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 2.619 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  resources/public/javascripts/cljs-dev/goog/deps.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.187 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.139 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.214 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.195 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  resources/public/javascripts/cljs-dev/goog/deps.js
+notifying browser that file changed:  /w33tmaricich/core.js
+sending changed CSS file: resources/public/css/styles.css
+sending changed CSS file: resources/public/css/styles.css
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 7 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 12, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 7 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 14, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.204 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.091 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.142 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+java.lang.AssertionError: No ns form found in src/w33tmaricich/code.cljs
+ at cljs.analyzer$parse_ns$fn__2163.invoke (analyzer.cljc:2134)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2094)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2075)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:2085)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2075)
+    cljs.compiler$compile_root$fn__3095.invoke (compiler.cljc:1174)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:521)
+    clojure.core$seq__4357.invokeStatic (core.clj:137)
+    clojure.core$map$fn__4785.invoke (core.clj:2637)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:521)
+    clojure.core$seq__4357.invokeStatic (core.clj:137)
+    clojure.core.protocols$seq_reduce.invokeStatic (protocols.clj:24)
+    clojure.core.protocols$fn__6738.invokeStatic (protocols.clj:75)
+    clojure.core.protocols/fn (protocols.clj:75)
+    clojure.core.protocols$fn__6684$G__6679__6697.invoke (protocols.clj:13)
+    clojure.core$reduce.invokeStatic (core.clj:6545)
+    clojure.core$reduce.invoke (core.clj:6527)
+    cljs.js_deps$build_index.invokeStatic (js_deps.clj:128)
+    cljs.js_deps$build_index.invoke (js_deps.clj:122)
+    cljs.js_deps$dependency_order.invokeStatic (js_deps.clj:168)
+    cljs.js_deps$dependency_order.invoke (js_deps.clj:165)
+    cljs.compiler$compile_root.invokeStatic (compiler.cljc:1173)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1160)
+    cljs.closure$compile_dir.invokeStatic (closure.clj:385)
+    cljs.closure$compile_dir.invoke (closure.clj:379)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.11 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.148 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.105 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 3 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 6, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 3 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 6, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.108 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 3 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 7, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 3 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 7, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.106 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.146 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.083 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 8 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 16, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.core/semi at line 11 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.core/semi at line 11 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.134 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.114 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.106 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.11 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.105 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 8 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 11, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.111 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.112 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 12 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 17, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.082 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.107 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.082 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 12 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 17, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 12, column 33
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.112 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.106 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.128 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+clojure.lang.ExceptionInfo: EOF while reading, starting at line 4 and column 1
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:330)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:326)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:193)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:183)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:202)
+    clojure.tools.reader$read_list.invoke (reader.clj:198)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:861)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$wrapping_reader$fn__728.invoke (reader.clj:361)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:189)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:183)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:202)
+    clojure.tools.reader$read_list.invoke (reader.clj:198)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:189)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:183)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:202)
+    clojure.tools.reader$read_list.invoke (reader.clj:198)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read.invokeStatic (reader.clj:927)
+    clojure.tools.reader$read.invoke (reader.clj:904)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+clojure.lang.ExceptionInfo: EOF while reading, starting at line 4 and column 1
+ at clojure.core$ex_info.invokeStatic (core.clj:4617)
+    clojure.core$ex_info.invoke (core.clj:4617)
+    clojure.tools.reader.reader_types$reader_error.invokeStatic (reader_types.clj:330)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:326)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:193)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:183)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:202)
+    clojure.tools.reader$read_list.invoke (reader.clj:198)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:189)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:183)
+    clojure.tools.reader$read_vector.invokeStatic (reader.clj:220)
+    clojure.tools.reader$read_vector.invoke (reader.clj:216)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:189)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:183)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:202)
+    clojure.tools.reader$read_list.invoke (reader.clj:198)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read_delimited.invokeStatic (reader.clj:189)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:183)
+    clojure.tools.reader$read_list.invokeStatic (reader.clj:202)
+    clojure.tools.reader$read_list.invoke (reader.clj:198)
+    clojure.tools.reader$read_STAR_.invokeStatic (reader.clj:878)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:859)
+    clojure.tools.reader$read.invokeStatic (reader.clj:927)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 4 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 18, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.124 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 4 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 18, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Invalid token: gstring/ on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 5, column 12
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 5 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 19, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.124 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.124 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.121 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.127 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 14, column 47
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 14, column 47
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.088 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Map literal must contain an even number of forms on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 14, column 47
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.084 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.core/email at line 15 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.13 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 12 and column 36 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 20, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.core/email at line 13 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.145 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.081 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.core/email at line 13 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.132 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.084 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.085 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.105 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.104 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.104 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.112 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 22 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 33, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 22 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 33, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 22 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 33, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.127 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.121 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 38 and column 4 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 40, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.165 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.137 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.139 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.158 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.105 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.132 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 37 and column 64 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 38, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 34 and column 40 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 38, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 35 and column 42 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 40, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.104 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 35 and column 42 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 40, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.147 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.16 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.141 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.145 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.111 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.164 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.099 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.147 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.147 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.15 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.11 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.103 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.102 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.128 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.146 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.152 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.153 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.148 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.105 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.167 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.152 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.16 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.146 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.171 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.104 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.152 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.156 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.154 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.171 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.157 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.15 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.108 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.155 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.162 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.157 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.155 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.146 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.16 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.159 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.159 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.156 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.163 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.155 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.148 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.154 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 41, column 9
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 41, column 9
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.106 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.15 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.157 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.183 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.16 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.156 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.202 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.154 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.146 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.868 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.114 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.131 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.159 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.086 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.141 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.093 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.111 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.151 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.134 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.161 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.154 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.code/rq at line 36 src/w33tmaricich/code.cljs
+WARNING: Use of undeclared Var w33tmaricich.code/rq at line 36 src/w33tmaricich/code.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.191 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.code/rq at line 36 src/w33tmaricich/code.cljs
+WARNING: Use of undeclared Var w33tmaricich.code/rq at line 36 src/w33tmaricich/code.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.153 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.code/rq at line 36 src/w33tmaricich/code.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.155 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.132 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.132 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.131 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.133 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.114 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.157 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.156 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 6 and column 9 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 41, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.914 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.203 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.135 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.177 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.192 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.175 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.178 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.169 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.166 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.167 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.167 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 11 and column 4 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 45, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.198 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.114 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.core/br at line 13 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.191 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.506 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var w33tmaricich.core/br at line 13 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.519 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.384 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.109 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.195 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.186 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.127 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.207 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.128 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.176 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.187 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.188 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.095 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 19, column 52
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.08 seconds.[0m
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.09 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.102 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.091 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.124 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.088 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.125 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 1.293 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.201 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.184 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.258 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.16 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 55 and column 4 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 57, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 60 and column 4 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 62, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.15 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 59 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 60, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 59 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 60, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 59, column 55
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.131 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.23 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.212 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.11 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.11 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.205 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.189 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.119 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.202 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 23, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 21 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.237 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.231 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.197 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.203 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.197 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.199 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.206 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.13 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 65, column 57
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 65 and column 4 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 66, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 65 and column 4 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 66, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 64 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 66, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.192 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.197 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.132 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.198 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.204 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.204 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.101 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 23, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.084 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 24, column 5
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Use of undeclared Var cljs-time.core/map->Period at line 130 resources/public/javascripts/cljs-dev/cljs_time/core.cljs
+WARNING: Use of undeclared Var cljs-time.core/Period at line 642 resources/public/javascripts/cljs-dev/cljs_time/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 1.97 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  resources/public/javascripts/cljs-dev/goog/deps.js
+notifying browser that file changed:  /w33tmaricich/code.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 26, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 27, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.179 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.553 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.17 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.609 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.086 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.164 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.168 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.184 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.152 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 23 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.154 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 22 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.15 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 24 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.155 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 24 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.156 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.133 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 29, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.344 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 29, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 29, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 30, column 5
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.083 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 28, column 80
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 28, column 80
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.078 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 24 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.146 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to w33tmaricich.code/s-atom at line 24 src/w33tmaricich/core.cljs
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.148 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.229 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 64 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 67, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 64 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 67, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.23 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.13 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.134 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.216 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.251 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.214 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.223 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.216 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.213 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.215 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.205 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.209 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.211 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.111 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.209 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.22 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.117 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.125 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.227 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.217 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 64 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 68, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.123 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.186 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.192 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 61 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 67, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.196 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.13 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.192 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 54, column 9
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.209 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 5 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 69, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 5 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 69, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 5 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 69, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.128 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 7 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 70, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.131 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.219 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 61 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 71, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.209 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.212 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.21 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.125 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.212 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.225 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.11 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.125 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.207 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.124 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 5 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 68, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 7 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 68, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 7 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 68, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 65 and column 5 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 67, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.128 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 68 and column 9 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 71, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.225 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 64 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 71, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.127 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.233 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 7 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 37, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.124 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.08 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.172 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.082 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.157 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.083 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.139 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.081 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.153 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.141 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.083 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.136 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.143 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.141 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.142 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.144 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.137 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.147 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.083 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.161 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.143 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.158 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.142 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.093 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.139 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 30 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 47, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 30 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/core.cljs, line 47, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.091 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.165 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.135 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.144 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.143 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 64 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 66, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 66 and column 5 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 67, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.227 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.203 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.135 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.221 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.083 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.143 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.12 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.202 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.118 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 61 and column 1 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 67, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.223 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: Invalid token: : on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 70, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.25 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.137 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 67 and column 7 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 72, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.13 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.239 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.251 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.247 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[31mCompiling "resources/public/javascripts/dev.js" failed.[0m
+ERROR: EOF while reading, starting at line 64 and column 3 on file /home/w33t/code/w33tmaricich/src/w33tmaricich/code.cljs, line 74, column 1
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.252 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+WARNING: Required namespace not provided for w33tmaricich.code
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.131 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.247 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/code.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.145 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.085 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.13 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.094 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.139 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.135 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.138 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.129 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.14 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.135 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.115 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.08 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.134 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.141 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.143 seconds.[0m
+notifying browser that file changed:  resources/public/javascripts/dev.js
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.135 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.146 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js
+[0mCompiling "resources/public/javascripts/dev.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/javascripts/dev.js" in 0.148 seconds.[0m
+notifying browser that file changed:  /w33tmaricich/core.js

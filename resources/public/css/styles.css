@@ -1,0 +1,49 @@
+html {
+  font-family: monospace;
+  font-size: 12pt;
+}
+body {
+  background-color: #0C3332;
+  color: #FCF5E2;
+  padding: 1em;
+}
+
+div {
+  display:inline-block;
+}
+
+code {
+  /*padding: 10px;*/
+}
+
+a {
+  color: #FCF5E2;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #FCF5E2;
+  color: #0C3332;
+}
+
+.sitecontainer {
+  font-size: 12pt;
+}
+
+/*colors*/
+.comment {
+  color: darkgray;
+}
+.keyword {
+  color: lightblue;
+}
+.macro {
+  color:darkorange;
+}
+.special {
+  color:#fffaa0;
+}
+.string {
+  color:lightgreen
+}
+
