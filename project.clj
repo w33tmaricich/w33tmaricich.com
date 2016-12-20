@@ -1,9 +1,9 @@
-(defproject w33tmaricich "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject w33tmaricich "1.0.0"
+  :description "Personal website for advertising myself."
+  :url "https://github.com/w33tmaricich/w33tmaricich.com"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :main helloworld.core
+  :main w33tmaricich.core
   :plugins [[lein-cljsbuild "1.0.6"]
             [lein-figwheel "0.3.7"]]
   :cljsbuild {:builds [{:id "dev"

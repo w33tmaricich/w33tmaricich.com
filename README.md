@@ -1,10 +1,10 @@
 # w33tmaricich
 
-A Clojure library designed to ... well, that part is up to you.
+My personal website for advertising myself and displaying whatever i fancy.
 
 ## Usage
 
-FIXME
+Simply navigate to w33tmaricich.com in a web browser.
 
 ## License
 

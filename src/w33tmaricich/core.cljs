@@ -21,9 +21,6 @@
                    :data "#{:buddhism :programming :veganism}"
                    :type "keyword"}])
 
-(def app-state
-  (reagent/atom {:message "Welcome to w33tmaricich.com!"}))
-
 (defn app 
   "Root structure of our ui"
   []
@@ -56,12 +53,7 @@
     (c/space 4) (c/kw ":personal") (c/space) "{" (c/kw ":family") (c/space) (c/s-a "http://maricich.family" "sites/family") (c/br)
     (c/space 15) (c/kw ":focalframe") (c/space) (c/s-a "http://focalframe.com" "sites/focalframe") (c/br)
     (c/space 15) (c/kw ":w33tmaricich") (c/space) (c/s-a "http://w33tmaricich.com" "sites/w33tmaricich") "}" (c/br)
-    (c/space 4) "@person))"
-
-  ])
-
-
-  ;[:div {} (:message @app-state)])
+    (c/space 4) "@person))"])
 
 (reagent/render [app] (js/document.querySelector "#cljs-target"))
 
