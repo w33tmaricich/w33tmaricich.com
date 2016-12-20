@@ -72,3 +72,13 @@
           (space 19)
           (kw (:keyword item)) (space) (s-div (:type item) (:data item)))))
     [:div "}"]))
+
+(defn s-a
+  "Creates a stylized anchor tag"
+  [href text]
+  [:a {:href href} text])
+
+(defn s-email
+  "Creates a stylized anchor tag"
+  [href text]
+  [:a {:href (str "mailto:" href)} text])
